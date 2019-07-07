@@ -3,6 +3,7 @@
 <html>
 <head>
 	<title>My Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- superslides -->
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
@@ -12,17 +13,21 @@
 
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 
 	<!-- stylesheet -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!-- jquery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 </head>
 	<body>
+
+		<div class="loader">
+			<div class="inner"></div>
+		</div>
+
 		<div id="slides">
 			<!-- dark overlay -->
 			<div class="overlay"></div>
@@ -44,6 +49,31 @@
 			   <a href="#" class="prev"></a>
 			</nav>
 		</div>
+
+		<nav id="navigation" class="navbar navbar-expand-lg">
+			<a class="navbar-brand" href="#">Welcome</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon"></span>
+		  	</button>
+
+		 	<div class="collapse navbar-collapse" id="navbarNav">
+		    	<ul class="navbar-nav">
+		      		<li class="nav-item active">
+		        		<a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#skills">Skills</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#stats">Stats</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#portfolio">Portfolio</a>
+		      		</li>
+		    	</ul>
+		  	</div>
+		</nav>
 
 		<div id="about" class="section">
 			<div class="container">
@@ -165,6 +195,20 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<div id="contact" class="contactSection section">
+			<div class="col-md-12 text-center">	
+				<h4 class="subHeading">Like what you see?</h4>
+				<h1>I'd love to hear from you!</h1>
+				<a href="mailTo:tuvo1106@gmail.com" class="contactButton">GET IN TOUCH!</a>
+			</div>	
+		</div>
+
+		<div class="copyrightSection">
+			<div class="col-md-12 text-center">
+				<h3>&copy; Copyright Tu Vo 2019</h3>
 			</div>
 		</div>
 
