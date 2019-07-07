@@ -7,7 +7,7 @@
 ## Description
 * This repository contains the source code for my static portfolio website.
 
-## HTML/CSS/JS Frameworks/Libraries
+## HTML/CSS/JS Frameworks
 
 ### [Bootstrap4](https://getbootstrap.com/)
 * Bootstrap4 is a open source toolkit for developing with HTML, CSS, and JS. 
@@ -40,10 +40,10 @@
 ### [Flat UI Colors](https://flatuicolors.com/)
 * CSS color palettes
 
-## [Pexels](https://www.pexels.com/)
+### [Pexels](https://www.pexels.com/)
 * Stock photos & videos
 
-## [Google Fonts](https://fonts.google.com/)
+### [Google Fonts](https://fonts.google.com/)
 * Fonts
 
 ## Awknowledgements
