@@ -29,6 +29,12 @@
 ### [Typed](https://github.com/mattboldt/typed.js/)
 * Typed is a JavaScript typing animation library
 
+### [IsoTope](https://isotope.metafizzy.co/)
+* Isotope is a plugin to filter and sort magical layouots
+
+### [FancyBox](http://fancybox.net/)
+* FancyBox is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page. 
+
 ## Assets
 
 ### [Font Awesome](https://fontawesome.com/?from=io)
@@ -36,6 +42,7 @@
 
 ### [Icons 8](https://icons8.com/)
 * Preloader gifs
+* SVGs
 
 ### [Flat UI Colors](https://flatuicolors.com/)
 * CSS color palettes
@@ -47,7 +54,7 @@
 * Fonts
 
 ## Awknowledgements
-* Reece Kenney's course "Make a Responsive Portfolio Website: JavaScript and HTML" on Udemy
+* Reece Kenney's course "Make a Responsive Portfolio Website: JavaScript and HTML" on Udemy.com
 
 ## Author
 * __Tu Vo__
