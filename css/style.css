@@ -390,3 +390,7 @@ body {
 .items {
 	padding: 0;
 }
+
+#bio {
+	font-size: 25px;
+}
