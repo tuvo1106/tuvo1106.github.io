@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://i.imgur.com/Xjq2WVJ.png">
-</p>
-
 # Tu Vo's portfolio website
 
 ## Description
