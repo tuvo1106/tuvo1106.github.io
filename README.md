@@ -69,4 +69,4 @@
 
 ## Author
 
-- **Tu Vo**
+- **Tu Vo** - [tuvo1106](https://github.com/tuvo1106)
