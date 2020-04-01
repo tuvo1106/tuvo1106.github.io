@@ -1,6 +1,6 @@
 # Tu Vo's portfolio website
 
-This repository contains the source code for my static portfolio website. Entire project is built with Bootstrap4 and various JS plugins.
+This repository contains the source code for my static portfolio website. The entire project is built with Bootstrap4 and various JS plugins.
 
 ## Author
 
