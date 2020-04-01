@@ -137,7 +137,7 @@ body {
   }
 
   .aboutImg {
-    height: 500px;
+    height: 400px;
   }
 
   .heading .main {
@@ -155,5 +155,32 @@ body {
 
   #bio {
     font-size: 1.25rem;
+  }
+
+  /* #portfolio-banner,
+  #photo-banner,
+  #footer {
+    padding-top: 0px;
+  } */
+
+  #about {
+    padding-bottom: 5px !important;
+  }
+
+  #portfolio {
+    padding-top: 15px !important;
+    padding-bottom: 5px !important;
+  }
+  #photos {
+    padding-top: 5px !important;
+    padding-bottom: 0px !important;
+  }
+
+  #portfolio-banner h2,
+  #photo-banner h2 {
+    font-size: 18px;
+  }
+  #footer h3 {
+    font-size: 14px !important;
   }
 }
