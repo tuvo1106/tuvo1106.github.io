@@ -6,6 +6,12 @@ body {
   font-family: "Lora", sans-serif;
 }
 
+.navbar {
+  box-shadow: 2px 2px 5px #1e272e;
+  opacity: 0.8;
+  background: white;
+}
+
 #slides {
   max-height: 1200px;
   background-color: #000;
@@ -74,27 +80,8 @@ body {
   max-width: 100%;
 }
 
-.skillsSection,
-.contactSection {
-  background-color: #1e272e;
-  color: #fff;
-}
-
-.contactButton {
-  color: #fff;
-  padding: 15px 20px;
-  display: inline-block;
-  margin-top: 20px;
-  border: 1px solid #fff;
-  border-radius: 2px;
-}
-
-.contactButton:hover {
-  text-decoration: none;
-  color: #1e272e;
-  background-color: #fff;
-}
-
+#portfolio-banner,
+#photo-banner,
 #footer {
   background-color: #1e272e;
   color: #fff;
@@ -102,23 +89,17 @@ body {
 
 #navigation {
   background-color: #1e272e;
-  padding: 20px 10px;
   z-index: 100;
-  width: 100%;
-  font-family: "Roboto", sans-serif;
   font-size: 125%;
 }
 
 #navigation .navbar-brand {
-  font-size: 150%;
+  font-size: 200%;
 }
 
 #navigation li {
-  padding: 0 10px;
-}
-
-#navigation li a {
   color: #fff;
+  padding: 0 10px;
 }
 
 .loader {
@@ -143,6 +124,11 @@ body {
 
 .slides-container {
   margin: 0px auto;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #000;
 }
 
 @media (max-width: 768px) {

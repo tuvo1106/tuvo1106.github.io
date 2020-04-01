@@ -47,36 +47,38 @@
     </div>
 
     <!-- navigation -->
-    <nav id="navigation" class="navbar navbar-expand-sm navbar-dark">
-      <a class="navbar-brand" href="#home">
-        <i class="fab fa-github"></i>
-      </a>
+    <nav
+      id="navigation"
+      class="navbar navbar-expand-sm navbar-dark fixed-top p-0"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">
+          <i class="fab fa-github"></i>
+        </a>
 
-      <button
-        class="navbar-toggler"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#about"
-              >About<span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#photos">Photos</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#about"
+                >About<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio-banner">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#photo-banner">Photos</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -106,22 +108,22 @@
     <div id="about" class="section py-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 d-flex justify-content-center">
+          <div class="col-md-5 d-flex justify-content-center">
             <img class="aboutImg rounded img-fluid" src="img/profile.jpg" />
           </div>
-          <div class="col-md-8 text-center">
-            <h4 class="py-3">Welcome!</h4>
+          <div class="col-md-7 text-center">
+            <h4 class="py-3 text-muted">Welcome!</h4>
             <p id="bio">
               My name is Tu Vo and I am a software engineering student/teaching
               assistant at Holberton School. I am currently seeking
               opportunities to showcase my talent, curiosity and love of
-              computer science as a full-stack junior developer. Python and
-              Javascript are my biggest strengths and I have experience working
-              with the following backend frameworks: Flask, Django, NodeJS, and
-              Express. My other work include programming with procedural
-              languages such as C/C++ in past school projects. Below is a
-              catalog of my work on Github and links to all of my deployed apps.
-              Thank you for visiting!
+              computer science as a full-stack developer. Python and Javascript
+              are my biggest strengths as I have experience in working with the
+              following tools/frameworks: Flask, Django, NodeJS, Express and
+              MongoDB. I also code in C/C++ and have been learning Golang in my
+              free time. Below is a catalog of my work on Github and links to
+              all of my deployed apps. When I'm not coding, I like to take
+              pictures, run and play D&D. Thank you for visiting!
             </p>
             <p></p>
           </div>
@@ -129,22 +131,204 @@
       </div>
     </div>
 
-    <!-- contact -->
-    <div id="contact" class="contactSection py-5">
+    <div id="portfolio-banner" class=" py-3">
       <div class="col-md-12 text-center">
-        <h4 class="subHeading"></h4>
-        <h1>I'd love to hear from you!</h1>
-        <a href="mailTo:tuvo1106@gmail.com" class="contactButton"
-          >GET IN TOUCH!</a
-        >
+        <h2>Check out some of my projects!</h2>
+      </div>
+    </div>
+
+    <section id="portfolio" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card-columns">
+              <div class="card">
+                <img
+                  src="img/project1.jpg"
+                  alt=""
+                  class="img-fluid card-img-top"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Banksy Trading Co.</h4>
+
+                  <hr />
+                  <p class="card-text">
+                    E-commerce web app that sells men's clothing/accessories.
+                    Frontend tools include Typescript, Sass, React and Redux.
+                    Backend uses Node, Express, and MongoDB. Final product is
+                    hosted on Heroku with Github Actions CI.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted d-flex align-items-center pb-2">
+                    <i class="fab fa-github fa-2x mr-2"></i>
+                    <a href="https://github.com/tuvo1106/banksy_trading_co"
+                      >See Code</a
+                    >
+                  </small>
+                  <small class="text-muted d-flex align-items-center">
+                    <i class="fas fa-globe fa-2x mr-2"></i>
+                    <a href="https://banksy-trading-co.herokuapp.com"
+                      >See Website</a
+                    >
+                  </small>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="img/project2.jpg"
+                  alt=""
+                  class="img-fluid card-img-top"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Earthbound</h4>
+
+                  <hr />
+                  <p class="card-text">
+                    Hiking web app to book photography tours. Backend heavy
+                    project that utilizes custom-built API to render content
+                    from database dynamically. Tools include Node, Express,
+                    MongoDB and PugJS. Final product is hosted on Heroku.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted d-flex align-items-center pb-2">
+                    <i class="fab fa-github fa-2x mr-2"></i>
+                    <a href="https://github.com/tuvo1106/earthbound"
+                      >See Code</a
+                    >
+                  </small>
+                  <small class="text-muted d-flex align-items-center">
+                    <i class="fas fa-globe fa-2x mr-2"></i>
+                    <a href="https://earthbound.herokuapp.com">See Website</a>
+                  </small>
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  src="img/project3.jpg"
+                  alt=""
+                  class="img-fluid card-img-top"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Mastermind</h4>
+
+                  <hr />
+                  <p class="card-text">
+                    Mastermind game played on the command line. This project is
+                    built entirely with Python3 using Object-Oriented
+                    Programming best practices. Features include multiplayer
+                    mode, persistent scoreboards, and four difficulty settings.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted d-flex align-items-center pb-2">
+                    <i class="fab fa-github fa-2x mr-2"></i>
+                    <a href="https://github.com/tuvo1106/mastermind"
+                      >See Code</a
+                    >
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card-columns">
+              <div class="card">
+                <img
+                  src="img/project4.jpg"
+                  alt=""
+                  class="img-fluid card-img-top"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Simple Shell</h4>
+
+                  <hr />
+                  <p class="card-text">
+                    Unix command line interpreter built with C. This is a
+                    low-level deep dive into manual memory management and OS
+                    syscalls. Features include $PATH integration and custom
+                    built-in commands. Unit testing is done with Bash.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted d-flex align-items-center pb-2">
+                    <i class="fab fa-github fa-2x mr-2"></i>
+                    <a href="https://github.com/tuvo1106/c_simple_shell"
+                      >See Code</a
+                    >
+                  </small>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="img/project5.jpg"
+                  alt=""
+                  class="img-fluid card-img-top"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Hbnb</h4>
+
+                  <hr />
+                  <p class="card-text">
+                    Airbnb clone built with Python3, Flask and MySQL. This is a
+                    6-part school project to learn about JSON data
+                    serialization, RESTful APIs, unit-testing and server-side
+                    rendering with Jinja. Final product runs on NGINX.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted d-flex align-items-center pb-2">
+                    <i class="fab fa-github fa-2x mr-2"></i>
+                    <a href="https://github.com/tuvo1106/flask_hbnb"
+                      >See Code</a
+                    >
+                  </small>
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  src="img/project6.jpg"
+                  alt=""
+                  class="img-fluid card-img-top"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Leetcode</h4>
+
+                  <hr />
+                  <p class="card-text">
+                    Personal repository containing over 100+ solutions to
+                    problems on Leetcode. This is a playground on problem
+                    solving and data structures/algorithm review. Languages
+                    used: Python, C++, Javascript, Golang, MySQL.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted d-flex align-items-center pb-2">
+                    <i class="fab fa-github fa-2x mr-2"></i>
+                    <a href="https://github.com/tuvo1106/1337code">See Code</a>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="photo-banner" class=" py-3">
+      <div class="col-md-12 text-center">
+        <h2>Check out some of my pictures!</h2>
       </div>
     </div>
 
     <!-- Photo Gallery -->
     <section id="photos" class="py-5">
       <div class="container text-center">
-        <h4 class="text-muted py-3">Check out some of my photos!</h4>
-        <hr />
         <div class="row mb-4">
           <div class="photo col-md-4">
             <a
@@ -203,7 +387,7 @@
     </section>
 
     <!-- copyright -->
-    <footer id="footer" class="py-5">
+    <footer id="footer" class="py-4">
       <div class="container text-center">
         <div class="row">
           <div class="col"><h3>&copy; Copyright Tu Vo 2020</h3></div>
