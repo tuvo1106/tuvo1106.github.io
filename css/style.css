@@ -131,12 +131,6 @@ body {
   color: #000;
 }
 
-.card-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 @media (max-width: 768px) {
   #slides {
     max-height: 500px;
